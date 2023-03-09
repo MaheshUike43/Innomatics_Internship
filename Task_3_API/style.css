@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 .main {
-    background: url("axville-SXGVliZGS7I-unsplash.jpg") no-repeat;
+    background: url("/assets/image/axville-SXGVliZGS7I-unsplash.jpg") no-repeat;
     background-size: cover;
 }
 
