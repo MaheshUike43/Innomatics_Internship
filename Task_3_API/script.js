@@ -7,7 +7,7 @@ const options = {
     }
 };
 
-URL = `https://steam2.p.rapidapi.com/search/asphalt/page/1`
+URL = `https://steam2.p.rapidapi.com/search/Asphalt9:Legends/page/1`
 fetch(URL, options)
     .then(response => response.json())
     .then(response => createCards(response));
