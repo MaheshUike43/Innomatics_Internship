@@ -4,14 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-body {
-    background-image: url("axville-SXGVliZGS7I-unsplash.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
+.main {
+    background: url("axville-SXGVliZGS7I-unsplash.jpg") no-repeat;
     background-size: cover;
-    height: 100%;
-    width: 100%;
 }
 
 header .row {
@@ -31,33 +26,80 @@ header .h1{
 }
 
 .card {
-    width: 20rem;
+    width: 45%;
     margin: 10px;
     background-color: black;
-    color: white;
+    color: rgb(255, 255, 255);
     box-shadow: 0 0 0 2px rgb(255, 255, 255),
-        0px 0px 10px rgb(0, 255, 255);
-    /* display: none; */
+        0px 0px 10px rgb(255, 200, 0);
 }
+
+.card:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 0 2px rgb(0, 0, 0),
+        0px 0px 10px rgb(255, 0, 0);
+}
+
+.card h4{
+    color: rgb(255, 200, 0);
+}
+
+.card:hover h4{
+        color: rgb(255, 0, 0);
+    }
 
 .card img {
     border-radius: 0;
     margin-top: 12px;
+    border: dotted rgb(255, 200, 0) 2px;
 }
 
-.hide {
-    display: none;
+.card:hover img {
+    border: dotted rgb(255, 0, 0) 2px;
 }
+
+.card .buyNow{
+    background-color: rgb(255, 200, 0);
+    border: 1px solid rgb(255, 200, 0);
+    color: #000;
+
+}
+
+.card:hover .buyNow{
+    background-color: rgb(255, 0, 0);
+    border: 1px solid rgb(255, 0, 0);
+    color: #ffffff;
+
+}
+
 
 footer{
-    background-color: navy;
+    background-color: rgb(0, 0, 0);
     margin-top: 50px;
     padding: 20px 0;
+
 }
 
-footer .h1{
+footer h1{
     color: white;
     font-size: 30px;
+
+}
+footer h1 span{
+    color: rgb(255, 200, 0);
+    font-size: 30px;
+
+}
+
+footer h1 a{
+    color: white;
+   
+
+}
+
+footer h1 a:hover{
+    color: rgb(255, 200, 0);
 
 }
 
