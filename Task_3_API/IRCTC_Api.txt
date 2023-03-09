@@ -1,0 +1,51 @@
+
+// ------------------------Train Live Details--------------
+
+const url1 = 'https://irctc1.p.rapidapi.com/api/v1/liveTrainStatus?trainNo=22186&startDay=0';
+
+const options1 = {
+  method: 'GET',
+  headers: {
+    'X-RapidAPI-Key': '6a5d8d873amshad3867395a336c1p12ed80jsnfe8b196556d6',
+    'X-RapidAPI-Host': 'irctc1.p.rapidapi.com'
+  }
+};
+
+fetch(url1, options1)
+	.then(res => res.json())
+	.then(json => console.log(json))
+	.catch(err => console.error('error:' + err));
+
+// -----------------------------Train Fare Details------------
+
+const url2 = 'https://irctc1.p.rapidapi.com/api/v2/getFare?trainNo=22152&fromStationCode=BPQ&toStationCode=PUNE';
+
+const options2 = {
+  method: 'GET',
+  headers: {
+    'X-RapidAPI-Key': '6a5d8d873amshad3867395a336c1p12ed80jsnfe8b196556d6',
+    'X-RapidAPI-Host': 'irctc1.p.rapidapi.com'
+  }
+};
+
+fetch(url2, options2)
+	.then(res => res.json())
+	.then(json => console.log(json))
+	.catch(err => console.error('error:' + err));
+
+// ------------------------------Train Seat Availability-----
+
+const url3 = 'https://irctc1.p.rapidapi.com/api/v1/checkSeatAvailability?classType=SL&fromStationCode=PUNE&quota=GN&toStationCode=BPQ&trainNo=22151&date=2023-03-10';
+
+const options3 = {
+  method: 'GET',
+  headers: {
+    'X-RapidAPI-Key': '6a5d8d873amshad3867395a336c1p12ed80jsnfe8b196556d6',
+    'X-RapidAPI-Host': 'irctc1.p.rapidapi.com'
+  }
+};
+
+fetch(url3, options3)
+	.then(res => res.json())
+	.then(json => console.log(json))
+	.catch(err => console.error('error:' + err));
