@@ -7,11 +7,24 @@ const options = {
     }
 };
 
-URL = `https://steam2.p.rapidapi.com/search/Asphalt9:Legends/page/1`
+URL = `https://steam2.p.rapidapi.com/search/Asphalt/page/1`
 fetch(URL, options)
     .then(response => response.json())
     .then(response => createCards(response));
 
+function fetchApi(e){
+    const inputValue = document.querySelector("input")
+    console.log(inputValue.value)
+    if(inputValue.value.length == 0){
+        URL = `https://steam2.p.rapidapi.com/search/Asphalt/page/1`
+    }else{
+        URL = `https://steam2.p.rapidapi.com/search/${inputValue.value}/page/1` 
+    }
+
+    fetch(URL, options)
+    .then(response => response.json())
+    .then(response => createCards(response));
+}
 
 
 function createCards(data) {
