@@ -1,0 +1,173 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+// --------------------- (Header) ---------------------------
+
+
+#main-head {
+
+    .navbar {
+        background: rgb(0, 0, 0);
+
+    }
+
+    .navbar-brand {
+        font-size: 30px;
+        color: rgb(255, 200, 0);
+        font-weight: 600;
+    }
+
+    .nav-link {
+        font-size: 20px;
+        color: white;
+        padding-left: 50px;
+        padding-right: 0px;
+
+    }
+
+    .nav-link:hover {
+        color: rgb(255, 200, 0);
+    }
+
+}
+
+
+
+
+// ----------------------- (Section-1) ---------------------
+
+#about-me {
+    position: relative;
+
+    #head-bg {
+        width: 100%;
+        height: auto;
+    }
+
+    #aboutMe {
+        position: absolute;
+        width: 1080px;
+        top: 90px;
+        overflow: hidden;
+
+        .profile-img {
+            width: 250px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        .h1 {
+            color: rgb(0, 0, 0);
+            font-weight: bolder;
+            margin-bottom: 20px;
+
+            a {
+                text-decoration: none;
+                color: rgb(255, 200, 0);
+                text-shadow: 1px 1px 2px rgb(0, 0, 0);
+
+            }
+        }
+
+        .h4 {
+            color: rgb(0, 0, 0);
+            font-size: 32px;
+            text-shadow: 0px 0px 2px rgb(255, 255, 255);
+            font-weight: 600;
+
+            span {
+                color: rgb(255, 200, 0);
+            }
+        }
+
+        .para {
+            margin: 20px 0px;
+            font-size: 22px;
+            font-weight: 500;
+            color: rgb(255, 255, 255);
+            text-shadow: 1px 1px 2px rgb(0, 0, 0);
+        }
+
+        .more {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+
+        .btn-more {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid rgb(0, 0, 0);
+            border-radius: 50px;
+            width: 180px;
+
+            a {
+                color: rgb(0, 0, 0);
+                font-size: 20px;
+                font-weight: bold;
+
+            }
+
+        }
+
+        .btn-more:hover {
+            background-color: rgb(255, 200, 0);
+            border: 1px solid rgb(255, 200, 0);
+
+            a {
+                color: rgb(0, 0, 0);
+
+            }
+        }
+
+    }
+
+}
+
+// ----------------------- (Section-2) ---------------------
+
+#education {
+
+    .edu-heading {
+        position: absolute;
+        top: 5%;
+        left: 43%;
+        z-index: 3;
+        font-weight: 700;
+        color: rgb(0, 0, 0);
+        text-shadow: 0px 0px 2px rgb(255, 255, 255);
+
+    }
+
+    .carousel-item {
+        position: relative;
+
+        img {
+            filter: blur(3px);
+        }
+
+        .carousel-caption {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.5);
+            color: rgb(255, 200, 0);
+            max-width: auto;
+            height: 160px;
+            bottom: 60%;
+
+            h4 {
+                color: white;
+            }
+
+            h5 {}
+
+        }
+    }
+
+
+}
+
+// @media screen and (max-width: 425px) {}
