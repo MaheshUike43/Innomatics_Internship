@@ -1,0 +1,14 @@
+
+.allCards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: rgb(75, 151, 24);
+  padding-bottom: 60px;
+  scroll-behavior: smooth;
+}
+
+
+
+

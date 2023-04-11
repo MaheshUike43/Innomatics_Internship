@@ -1,0 +1,22 @@
+.logo{
+    width: 150px;
+}
+
+.list-box{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-top: 7px;
+    margin: 0;
+}
+
+.list-box li{
+    padding-right: 50px;
+    color: #6e7582;
+}
+
+.cart{
+    padding-top: 10px;
+}
+
+

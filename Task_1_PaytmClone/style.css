@@ -1,0 +1,552 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.main-nav {
+    margin-top: 4px;
+    height: 86px;
+}
+
+.pt_logo {
+    width: 182px;
+    height: 55px;
+    margin-left: 55px;
+}
+
+.no-kyc {
+    background: linear-gradient(#e6e9ed, #f6f6f6);
+    height: 50px;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 550;
+}
+
+.link-font {
+    font-weight: 550;
+    font-size: 18px;
+    padding: 3px;
+    margin: 0px 10px 0px 0px;
+}
+
+.sign-in-btn {
+    margin-right: 75px;
+    border-radius: 20px;
+    background-color: #00baf2;
+    width: 110px;
+    border: none;
+    color: #ffffff;
+    height: 40px;
+    padding: 5px;
+    display: inline-block;
+}
+
+.logout-img {
+    height: 39px;
+    border-radius: 100%;
+    width: 30px;
+    float: right;
+    margin-right: 0.1em;
+    margin-top: -5px;
+}
+
+.link-font:hover {
+    background-color: #f5f7fa;
+}
+
+.nav-container {
+    margin-left: 63px;
+}
+
+.main-nav {
+    margin-top: 4px;
+    height: 86px;
+}
+
+.pt_logo {
+    width: 182px;
+    height: 55px;
+    margin-left: 55px;
+}
+
+.no-kyc {
+    background: linear-gradient(#e6e9ed, #f6f6f6);
+    height: 50px;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 550;
+}
+
+.link-font {
+    font-weight: 550;
+    font-size: 18px;
+    padding: 3px;
+    margin: 0px 10px 0px 0px;
+}
+
+.sign-in-btn {
+    margin-right: 75px;
+    border-radius: 20px;
+    background-color: #00baf2;
+    width: 110px;
+    border: none;
+    color: #ffffff;
+    height: 40px;
+    padding: 5px;
+    display: inline-block;
+}
+
+.logout-img {
+    height: 39px;
+    border-radius: 100%;
+    width: 30px;
+    float: right;
+    margin-right: 0.1em;
+    margin-top: -5px;
+}
+
+.link-font:hover {
+    background-color: #f5f7fa;
+}
+
+.nav-container {
+    margin-left: 63px;
+}
+
+
+#block1 {
+    height: 600px;
+    width: 100%;
+    /* background-color: gray; */
+}
+
+/* .pb-1{
+    height: 500px;
+    width: 100%;
+    background-color: aquamarine;
+    position: absolute;
+}
+
+.cb-1{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    background-color: #f6f6f6;
+}
+
+.cb-2{
+    height: 200px;
+    width: 200px;
+    right: 0;
+    top: 20px;
+    position: relative;
+    background-color: #f6f6f6;
+} */
+
+
+.imagepaytm {
+    height: 500px;
+    width: auto;
+
+}
+
+.service-1 {
+    width: 100%;
+    height: 380px;
+    background-color: #00baf2;
+    color: #ffffff;
+}
+
+.service-2 {
+    width: 100%;
+    height: 380px;
+    background-color: #0f4a8a;
+    color: #ffffff;
+}
+
+.icon-image {
+    width: 65px;
+    height: 65px;
+}
+
+.my-container {
+    position: relative;
+}
+
+.my-container-text {
+    width: 500px;
+}
+
+
+/* -------------------- (PPI)  ----------------------- */
+
+.ppi-tag {
+    padding: 80px 0px 25px 0px;
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.box-1,
+.box-2 {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 80px 50px 80px 115px;
+    justify-content: space-between;
+
+}
+
+.side-l {
+    width: 45%;
+}
+
+.wallet {
+    font-weight: 700;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    margin-right: 300px;
+}
+
+.wallet img {
+    height: 77px;
+    width: auto;
+    margin-right: 12px;
+}
+
+.wallet-content h1,
+.upi-content h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 50px 55px 0px 0px;
+
+}
+
+.wallet-content h5,
+.upi-content h5 {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 28px;
+    padding: 30px 0px;
+
+}
+
+.down-btn {
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    background-color: black;
+}
+
+.down-btn a i {
+    color: white;
+    margin-left: 5px;
+}
+
+.down-btn:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+.down-btn:hover i {
+    color: #000;
+}
+
+#wallet-img,
+#upi-img {
+    width: 539px;
+}
+
+.upi {
+    font-weight: 700;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    margin-right: 260px;
+}
+
+.upi img {
+    height: 77px;
+    width: auto;
+    margin-right: 12px;
+}
+
+.box-3 {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 80px 50px 80px 115px;
+    justify-content: space-between;
+
+}
+
+.pp img {
+    height: 77px;
+    width: auto;
+    margin-right: 12px;
+}
+
+.pp-content h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 50px 0px 0px 0px;
+
+}
+
+.pp-content h5 {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 28px;
+    padding: 30px 0px;
+
+}
+
+.learn-more-btn {
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    background-color: #002970;
+    color: white;
+}
+
+.learn-more-btn a i {
+    color: white;
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+.learn-more-btn:hover {
+    background-color: #00B8F9;
+    border: none;
+    color: white;
+}
+
+#pp-img {
+    width: 443px;
+}
+
+.two-cards{
+    display: flex;
+}
+
+.hdfc-card{
+    width: 545px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 120px 70px 0px 70px;
+    margin-right: 25px;
+} 
+
+.sbi-card{
+    width: 545px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 120px 70px 0px 70px;
+    margin-left: 25px;
+} 
+
+.hdfc img, .sbi img{
+    width: 182px;
+}
+
+.hdfc-content h1{
+    font-size: 40px;
+    font-weight:700;
+    padding: 28px 0px 0px 0px; 
+
+}
+
+.sbi-content h1{
+    font-size: 40px;
+    font-weight:700;
+    padding: 28px 40px 0px 0px; 
+
+}
+
+.hdfc-content h5, .sbi-content h5{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 30px 0;
+}
+
+/*----------____________( Insurance Broking )___________-----------*/
+
+.box-4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 0px;
+
+}
+
+.left-side, .right-side {
+    width: 45%;
+}
+
+.insurance-content h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 50px 55px 0px 0px;
+
+}
+.loan-content h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 50px 120px 0px 0px;
+
+}
+
+.insurance-content h5{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    padding: 30px 0px;
+
+}
+.loan-content h5 {
+    font-size: 17.5px;
+    font-weight: 500;
+    line-height: 26px;
+    padding: 30px 0px;
+
+}
+
+.insurance img {
+    height: 55px;
+    width: 180px;
+}
+
+.loan img {
+    height: 55px;
+    width: 180;
+}
+
+.box-4 > img{
+    width: 443px;
+}
+
+/* <!-- ------------------------------(Business Service by Paytm)---------------------------- --> */
+
+.bps-tag {
+    padding: 120px 0px 25px 0px;
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.box-5{
+    background-color: #F5F7FA;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 80px 0px 80px 115px;
+    justify-content: space-between;
+
+}
+
+.bsp-side-l {
+    width: 45%;
+}
+
+
+.bsp-content h1,
+.bsp-content h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 50px 60px 0px 0px;
+
+}
+
+.bsp-content h5,
+.bsp-content h5 {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 26px;
+    padding: 30px 30px 30px 0px;
+
+}
+
+#bsp-img1,
+#bsp-img2 {
+    width: 443px;
+}
+
+/* <--------------------------(Footer)------------------------> */
+
+
+.footer{
+    padding: 80px 40px;
+}
+
+.box-6{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot-head{
+    display: inline;
+}
+
+.foot-left-side span{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.foot-left-side img{
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+}
+
+.foot-right-side i{
+    font-size: 25px;
+    text-decoration: none;
+    color: #707070;
+    padding-left: 30px ;
+}
+
+
+
+.f-row{
+    margin-bottom: 50px;
+}
+
+.money-image{
+    margin: 60px 50px 50px 50px;
+}
+
+.money-text{
+    margin:60px 0px 0px 0px;
+    width: auto;
+    height: auto;
+}
+
+.pm-text{
+    margin: 10px 0px 20px 0px;
+    height: 300px;
+}
+
+.pm-t{
+    font-size: 40px;
+    font-weight: 800;
+    width: 350px;
+    color: #000;
+}
+
+.pmts{
+    color:#000;
+    font-size: 20px;
+    padding-right: 50px;
+}

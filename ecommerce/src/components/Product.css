@@ -1,0 +1,19 @@
+
+.main-img #product-image{
+    width: 80%;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img img{
+    width: 90px;
+    border-radius: 10px;
+}
+
+.imgThumbs{
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 33px;
+}

@@ -1,0 +1,433 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Marmelad', sans-serif;
+}
+
+// --------------------- (Header) ---------------------------
+
+#main-head {
+
+    .navbar {
+        background: rgb(0, 0, 0);
+
+    }
+
+    .navbar-brand {
+        font-size: 30px;
+        color: rgb(255, 200, 0);
+        font-weight: 600;
+    }
+
+    .nav-link {
+        font-size: 20px;
+        color: white;
+        padding-left: 50px;
+        padding-right: 0px;
+
+    }
+
+    .nav-link:hover {
+        color: rgb(255, 200, 0);
+    }
+
+}
+
+// ----------------------- (About me) ---------------------
+
+#about-me {
+    position: relative;
+
+    #aboutMe {
+        position: absolute;
+        width: 1140px;
+        top: 90px;
+
+        .profile-img {
+            width: 250px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        .h1 {
+            color: rgb(0, 0, 0);
+            font-weight: bolder;
+            margin-bottom: 20px;
+
+            a {
+                text-decoration: none;
+                color: rgb(255, 200, 0);
+                text-shadow: 1px 1px 2px rgb(0, 0, 0);
+
+            }
+        }
+
+        .h4 {
+            color: rgb(0, 0, 0);
+            font-size: 32px;
+            text-shadow: 0px 0px 2px rgb(255, 255, 255);
+            font-weight: 600;
+
+            span {
+                color: rgb(255, 200, 0);
+            }
+        }
+
+        .para {
+            margin: 20px 0px;
+            font-size: 22px;
+            font-weight: 500;
+            color: rgb(255, 255, 255);
+            text-shadow: 1px 1px 2px rgb(0, 0, 0);
+        }
+
+        .more {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+
+        .btn-more {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid rgb(0, 0, 0);
+            border-radius: 50px;
+            width: 180px;
+
+            a {
+                color: rgb(0, 0, 0);
+                font-size: 20px;
+                font-weight: bold;
+
+            }
+
+        }
+
+        .btn-more:hover {
+            background-color: rgb(255, 200, 0);
+            border: 1px solid rgb(255, 200, 0);
+
+            a {
+                color: rgb(0, 0, 0);
+
+            }
+        }
+
+    }
+
+}
+
+// ----------------------- (EDUCATION) ---------------------
+
+#education {
+
+    .carousel-inner {
+        position: relative;
+
+        .edu-heading {
+            position: absolute;
+            top: 50px;
+            left: 117px;
+            z-index: 3;
+            font-weight: 700;
+            color: rgb(0, 0, 0);
+            background-color: rgb(255, 200, 0);
+            border-top-right-radius: 50px;
+            border-bottom-right-radius: 50px;
+            padding: 5px 30px;
+
+        }
+
+        .carousel-item {
+
+            img {
+                filter: blur(3px);
+            }
+
+            .carousel-caption {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: rgba(0, 0, 0, 0.5);
+                color: rgb(255, 200, 0);
+                max-width: auto;
+                height: 160px;
+                bottom: 40%;
+
+                h4 {
+                    color: white;
+                }
+
+            }
+        }
+    }
+
+
+
+
+}
+
+// -----------------------( PROJECTS) ---------------------
+
+#projects {
+    position: relative;
+
+    .proj-heading {
+        position: absolute;
+        top: 50px;
+        right: 117px;
+        z-index: 3;
+        font-weight: 700;
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 200, 0);
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        padding: 5px 30px;
+    }
+
+    #project-cards {
+        position: absolute;
+        top: 150px;
+        right: 117px;
+        padding: 0px;
+        width: 1115px;
+
+        .card {
+            margin-bottom: 3rem;
+            background-color: rgba(0, 0, 0, 0.5);
+            border: 1px solid rgb(255, 200, 0);
+
+            .card-header {
+                color: rgb(255, 200, 0);
+                font-size: 28px;
+
+            }
+
+            .card-body {
+                background-color: rgba(255, 255, 255, 0.39);
+                color: black;
+
+                h5 {
+                    color: rgb(0, 17, 65);
+                    font-weight: 600;
+                }
+
+                ul {
+                    list-style: none;
+                }
+
+                ul li::before {
+                    content: "\2022";
+                    color: rgb(255, 200, 0);
+                    font-weight: 900;
+                    font-size: 20px;
+                    display: inline-block;
+                    width: 1em;
+                    margin-left: -1em;
+                }
+
+                li {
+                    font-weight: 500;
+                    font-size: 17px;
+                }
+
+                a {
+                    font-size: 20px;
+                    color: rgb(0, 0, 0);
+                    width: 200px;
+                    height: auto;
+                    border-radius: 50px;
+                    border: 1px solid rgb(0, 0, 0);
+
+                }
+
+                a:hover {
+                    border: 1px solid rgb(255, 200, 0);
+                    background-color: rgb(255, 200, 0);
+
+                }
+
+            }
+
+            .card-footer {
+                color: white;
+                background-color: rgba(0, 0, 0, 0.5);
+                font-size: 22px;
+                font-weight: 500;
+                font-style: italic;
+
+                span {
+                    color: rgb(255, 200, 0);
+                    font-style: normal;
+
+                }
+            }
+
+        }
+
+    }
+}
+
+// -----------------------( Skills ) ---------------------
+
+#skills {
+    position: relative;
+
+    .skill-heading {
+        position: absolute;
+        top: 50px;
+        left: 117px;
+        font-weight: 500;
+        color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        padding: 5px 30px;
+        width: 12%;
+    }
+
+    .html-logo {
+        width: 150px;
+        position: absolute;
+        top: 200px;
+        left: 200px;
+
+    }
+
+    .css-logo {
+        width: 110px;
+        position: absolute;
+        top: 200px;
+        left: 460px;
+
+    }
+
+    .js-logo {
+        width: 130px;
+        position: absolute;
+        top: 210px;
+        left: 700px;
+
+    }
+
+    .java-logo {
+        width: 140px;
+        position: absolute;
+        top: 400px;
+        left: 300px;
+        filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.5)) saturate(2) contrast(2);
+
+    }
+
+    .sql-logo {
+        width: 180px;
+        position: absolute;
+        top: 400px;
+        left: 550px;
+
+    }
+
+    .py-logo {
+        width: 150px;
+        position: absolute;
+        top: 200px;
+        left: 950px;
+
+    }
+
+    .mdb-logo {
+        width: 300px;
+        position: absolute;
+        top: 570px;
+        left: 520px;
+
+    }
+
+    .cd-logo {
+        width: 240px;
+        position: absolute;
+        top: 400px;
+        left: 890px;
+        filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.5));
+
+    }
+
+}
+
+// -----------------------( Skills ) ---------------------
+
+#contact {
+
+    #contact-box {
+        background-color: rgb(255, 200, 0);
+        width: 100%;
+        max-height: auto;
+
+    }
+
+    #contact-me {
+
+        .brd {
+            width: 2.5rem;
+            height: 2.5rem;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid black;
+            border-radius: 100%;
+            margin-bottom: 1rem;
+
+            span {
+                font-size: 20px;
+
+            }
+        }
+
+        p {
+            margin-top: 7px;
+            margin-left: 15px;
+        }
+
+    }
+
+    #social-link {
+        a {
+            font-size: 30px;
+            margin-right: 20px;
+            color: rgb(0, 0, 0);
+        }
+    }
+
+    .copyright {
+        text-align: center;
+        background-color: black;
+        color: rgb(255, 255, 255);
+        padding: 20px 0px;
+
+        span {
+            color: rgb(255, 200, 0);
+            text-decoration: underline;
+        }
+
+    }
+
+}
+
+.page-up {
+    position: fixed;
+    width: 4rem;
+    height: 4rem;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 100%;
+    z-index: 4;
+    bottom: 80px;
+    right: 50px;
+
+    a{
+        font-size: 40px;
+        color: #000;
+    }
+}
+
+// @media screen and (max-width: 425px) {}

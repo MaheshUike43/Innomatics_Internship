@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+.prodDetails {
+    font-family: 'Open Sans', sans-serif;
+    padding: 40px 100px 80px 0px;
+}
+
+button {
+    border: none;
+}
+
+.comp-name {
+    letter-spacing: 1.5px;
+    color: #ff7e1b;
+    font-weight: 700;
+    margin-left: 3px;
+    font-size: 13px;
+}
+
+.disc {
+    background-color: #ffe9c9;
+    color: #ff7e1b;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 3.5px;
+    padding: 3px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.details{
+    color: #a3a3a3;
+    margin: 3rem 0 2rem 0;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.value {
+    background-color: #eeeeee;
+    padding: 10px 20px;
+}
+
+.btn-dec {
+    background-color: #eeeeee;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 10px 20px;
+}
+
+.btn-inc {
+    background-color: #eeeeee;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 10px 20px;
+}
+
+.addcart-btn {
+    background-color: #ff7e1b;
+    color: white;
+    padding: 10px 45px;
+    border-radius: 5px;
+}
+
+.addcart-btn:hover{
+    box-shadow: 0px 0px 8px rgba(255,126,27,1);
+}
